@@ -1,0 +1,1 @@
+learning scripting in shell
