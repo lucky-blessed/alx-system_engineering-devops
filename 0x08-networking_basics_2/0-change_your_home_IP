@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
 # Script to config Ubuntu server with specific DNS resolutions.
-
-# Config localhost to resolve to 127.0.0.2
 sudo sed -i '1s/^/127.0.0.2 localhost\n/' /etc/hosts
 sudo sed -i '$a 8.8.8.8 facebook.com' /etc/hosts
