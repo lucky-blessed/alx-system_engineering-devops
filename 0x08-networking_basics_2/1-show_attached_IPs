@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#Script to display all active IPV4 on the machine
+ip_addresses=$(ifconfig | grep -oE 'inet (addr:)?([0-9]*\.){3}[0-9]*' | awk '{print $2}' | grep -v '127.0.0.1')
+if [ -z "$id_addresses" ]; then
+    echo "No active IPV4 IPs found."
+else
+    echo "Active IPV4 IPs:"
+    echo "$ip_addresses"
+fi
