@@ -6,5 +6,6 @@ Host *
     IdentityFile ~/.ssh/school
     sendEnv LANG LC_*
     HashKnownHosts yes
+    GSSAPIDelegateCredentials no
     GSSAPIAuthentication yes
     HostName 100.26.152.208
