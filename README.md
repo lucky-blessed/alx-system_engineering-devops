@@ -1,2 +1,1 @@
-Learning system engineering deveops
-Started with C
+alx-system_engineering-devops
