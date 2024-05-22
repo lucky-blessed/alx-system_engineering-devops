@@ -5,3 +5,7 @@
 #+  code of each log, in sorted order.
 
 awk '{ print $1 " " $9}' apache-access.log | sort | uniq -c | sort -rn
+<<<<<<< HEAD
+=======
+
+>>>>>>> 44b218b0be73172d9373d91e16f52962c98b2fad

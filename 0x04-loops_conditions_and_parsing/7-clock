@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # Displays the time for 12 horus and 59 minutes.
+=======
+# Displays the time for 12 hours and 59 minutes.
+>>>>>>> 44b218b0be73172d9373d91e16f52962c98b2fad
 #   Displays hours from 0 to 12
 #   Displays minutes from 1 to 59
 

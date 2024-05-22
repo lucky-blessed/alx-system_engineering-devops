@@ -5,3 +5,7 @@
 while read -r passwd; do
   echo "$passwd" | cut -d ':' -f1,3,6
 done < "/etc/passwd"
+<<<<<<< HEAD
+=======
+
+>>>>>>> 44b218b0be73172d9373d91e16f52962c98b2fad

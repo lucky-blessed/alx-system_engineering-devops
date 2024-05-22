@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # Connects to server 18.208.119.60 with key in ~/.ssh/school
 
 ssh -i ~/.ssh/school ubuntu@18.208.119.60
+=======
+# SSH Script to connect tp server using a private keyn and ununtu user
+ssh -i ~/.ssh/school ubuntu@100.26.152.208
+>>>>>>> 44b218b0be73172d9373d91e16f52962c98b2fad

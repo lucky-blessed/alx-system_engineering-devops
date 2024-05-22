@@ -7,3 +7,7 @@ while IFS=':' read -r username password uid gid info home shell; do
   "$uid's place is protected by the passcode $password,"\
   "more info about the user here: $info"
 done < "/etc/passwd"
+<<<<<<< HEAD
+=======
+
+>>>>>>> 44b218b0be73172d9373d91e16f52962c98b2fad
