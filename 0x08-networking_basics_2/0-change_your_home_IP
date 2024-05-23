@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-<<<<<<< HEAD
 # Configures an Ubuntu server as follows:
 #   - localhost resolves to 127.0.0.2
 #   - facebook.com resolves to 8.8.8.8
@@ -8,8 +7,3 @@ cp /etc/hosts ~/hosts.new
 echo "127.0.0.2		localhost" > ~/hosts.new
 echo "8.8.8.8		facebook.com" >> ~/hosts.new
 cp -f ~/hosts.new /etc/hosts
-=======
-# Script to config Ubuntu server with specific DNS resolutions.
-sudo sed -i '1s/^/127.0.0.2 localhost\n/' /etc/hosts
-sudo sed -i '$a 8.8.8.8 facebook.com' /etc/hosts
->>>>>>> 44b218b0be73172d9373d91e16f52962c98b2fad
